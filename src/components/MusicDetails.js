@@ -9,6 +9,7 @@ const MusicDetails = (props) => {
         <div>
           <h5 key={index}>{index + 1}: {song['im:name'].label}</h5>
           <h6>{song['im:artist'].label}</h6>
+          <h6>{song['im:price'].label}</h6>
           <img alt="fdoicjwioc" src={song['im:image'][2].label}/>
         </div>
     )
